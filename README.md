@@ -19,6 +19,8 @@
   * ``` C:\jekyll new testblogg ``` 
   * ``` C:cd testblogg ``` 
   * ``` C:\testblogg> jekyll serve ``` 
+* vinna í vefnum síðar
+  * ``` C:\testblogg> jekyll serve ``` 
 
 * CSS Jekyll leiðbeiningar > **minima** stílsíður 
   * https://github.com/jekyll/minima 
