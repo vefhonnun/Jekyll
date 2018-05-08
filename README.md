@@ -1,14 +1,16 @@
 # Jekyll Framework
 
 ## Glósur
-#### Innsetning: notið nýjustu útgáfu _Ruby+Devkit_
+* Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
+  * Windows: https://rubyinstaller.org/
+  * Fylgir með Mac/Linux stýrirkerfum 
 
 * CMD > start command with Ruby
-  * ``` ruby -v ``` 
+  1. ``` ruby -v ``` 
   	* (ruby 2.5.1p57. Dags. 17/4 2018)
-  * ``` gem install rubygems-update ``` 
-  * ``` update_rubygems ``` 
-  * ``` gem update --system ``` 
+  2. ``` gem install rubygems-update ``` 
+  3. ``` update_rubygems ``` 
+  4. ``` gem update --system ``` 
 
 * innsetning jekyll 
   * ``` gem install jekyll bundler ```
@@ -23,13 +25,7 @@
 * vinna í vefnum 
   * ``` C:\testblogg> jekyll serve ``` 
 
-* CSS Jekyll leiðbeiningar > **minima** stílsíður 
-  * https://github.com/jekyll/minima 
-
-* Góðar leiðbeiningar (nema innsetningin) 
-  * http://www.giraffeacademy.com/static-site-generators/jekyll/
-
-## front matter = fyrirmæli. 
+### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
 
 ```
@@ -74,6 +70,11 @@ Til að samræma gh-pages grein við master - vera á gh grein
 gjg@DESKTOP-pc MINGW64 ~/Desktop/GIT-vefhonnun/minima (gh-pages)
 $ git merge master
 ```
+### Bjargir
+* Góðar leiðbeiningar (nema innsetningin) 
+  * http://www.giraffeacademy.com/static-site-generators/jekyll/
+* CSS Jekyll leiðbeiningar > **minima** stílsíður 
+  * https://github.com/jekyll/minima 
 
 
 
