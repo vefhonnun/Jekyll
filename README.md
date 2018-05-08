@@ -75,7 +75,9 @@ $ git merge master
 ### Bjargir
 * Góðar leiðbeiningar (nema innsetningin) 
   * http://www.giraffeacademy.com/static-site-generators/jekyll/
-* CSS Jekyll leiðbeiningar > **minima** stílsíður 
+* Jekyll framework
+  * https://github.com/jekyll/jekyll
+* CSS Jekyll > **minima** stílsíður 
   * https://github.com/jekyll/minima 
 
 
