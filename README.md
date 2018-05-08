@@ -33,24 +33,27 @@
 YAML eða JSON = skipun : gildi
 
 ```
-layout: post (page eða eitthvað sem er skráð í confic.yml skrána)
+layout: post
 title: titill síðunnar
 date: 2018-05-07 14:00:10 +0000
 ```
-Jekyll byggir leiðakerfi á dagsetningunni fyrir framan titilinn, það þarf að vista pistla með dagsetningu, dæmi: 2018-12-31-titill.md (eða .html)
+
+#### Leiðakerfi pistla (posts)
+Jekyll byggir leiðakerfið á dagsetningunni fyrir framan titilinn, það þarf að vista pistla með dagsetningu, dæmi: ```2018-12-31-titill.md``` (eða .html)
+
+#### Skipulag
+* möppur sem eru í *_post* eru notaðar sem flokkar "categories" í leiðakerfinu
+* pages.md eða .html í rót eða í möppum eru eins og í venjulegum vef. Allar síðurnar þurfa að hafa fyrirmæli (front matter) efst á síðu með ```layout:page``` osfr.
+
+#### permalink - permanent url  í stað dagsetningar í pistlum
+Dæmi: ```permalink:/info/``` eða ```permalink: /:categories```
 
 #### -drafts fyrir pistla sem eru í mótun eða bið.
 til að sjá pistla í bið á vefnum þarf að slökkva á server og ræsa aftur svona: 
-``jekyll serve --draft``` það þarf ekki að setja dagsetningu á draft skjöl
-
-* möppur í _post eru "categories"
-* pages.md eða .html í rót eða í möppum eru eins og í venjulegum vef. Allar síðurnar þurfa að hafa fyrirmæli (front matter) efst á síðu með ---layout:page.
-
-#### permalink - permanent url  í stað dagsetningar
-Dæmi: ```permalink:/info/``` eða ```permalink: /:categories```
+```jekyll serve --draft``` það þarf ekki að setja dagsetningu á draft skjöl.
 
 #### Grunnsíður
-Grunnsíður (templates) eru .html skjöl og eru geymd í _layouts möppu
+Grunnsíður (_templates_) eru .html skjöl og eru geymd í _layouts möppu
 Efni vefsíðunnar fer í: {{ content }} 
 {{ page.title }}. fer eftir því hvaða fyrirmæli (front matter) er efst í .md skjölunum. 
 Hægt er að vera með ýmsar CSS viðbætur í _layouts möppunni sem hægt er að setja inn í síður ásamt grunnsíðum.
