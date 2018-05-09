@@ -97,7 +97,9 @@ Ef er gott ...
 Dæmi: vefsíða sem er virk (_active_)
 ```
   {% for post in site.posts %}
-    <li><a href="{{ post.url }} style="{% if page.url == post.url %}color:red{% endif %}" {{ post.title }}</a></li>
+    <li>
+      <a href="{{ post.url }} style="{% if page.url == post.url %}color:red{% endif %}" {{ post.title }}</a>
+    </li>
   {% endfor %}
 
 ```
