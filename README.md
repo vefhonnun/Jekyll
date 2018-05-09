@@ -110,7 +110,7 @@ Dæmi: vefsíða sem er virk (_active_). Hér notum við lykkju og skilyrði.
 
 Til að sortera gögn, dæmi:
 ```
-  {% for x in site.data.gagnaskrá %}
+  {% for persona in site.data.gagnaskrá %}
     {{persona.nafn}}, {{persona.starf}} <br>  
   {% endfor %}
 ```
