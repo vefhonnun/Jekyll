@@ -98,14 +98,26 @@ Dæmi: vefsíða sem er virk (_active_). Hér notum við lykkju og skilyrði.
 ```
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }} style="{% if page.url == post.url %}color:red{% endif %}"> {{ post.title }}</a>
+      <a href="{{ post.url }} style="{% if page.url == post.url %}color:red{% endif %}">{{ post.title }}</a>
     </li>
   {% endfor %}
 
 ```
 #### Gagnaskrár (_data files_)
+* Gögn geta verið geymd sem .YML, .JSON og .CSV skrár.
+* Gögn eru í möppu sem nefnd er **"_data"**
+* Til að ná í gögn á vefsíðu: ```{{ site.data.gagnaskrá }}```
 
-#### Búa til vef í jekyll geymslu
+Til að sortera gögn, dæmi:
+```
+  {% for x in site.data.gagnaskrá %}
+    {{persona.nafn}}, {{persona.starf}} <br>  
+  {% endfor %}
+```
+
+#### Vefsíður 
+
+#### Setja upp jekyll vef á GitHub.io
 ```
 git checkout -b gh-pages 
 
