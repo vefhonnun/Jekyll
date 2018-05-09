@@ -94,7 +94,7 @@ Ef er gott ...
   {% endif %}
 
 ```
-Dæmi: vefsíða sem er virk (_active_)
+Dæmi: vefsíða sem er virk (_active_). Hér notum við lykkju og skilyrði.
 ```
   {% for post in site.posts %}
     <li>
