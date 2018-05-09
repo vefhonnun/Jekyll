@@ -56,7 +56,52 @@ Jekyll byggir leiðakerfið á dagsetningunni fyrir framan titilinn, það þarf
 * {{ page.title }}. fer eftir því hvaða fyrirmæli (front matter) er efst í .md skjölunum. 
 * Hægt er að vera með ýmsar CSS viðbætur í _layouts möppunni sem hægt er að setja inn í síður ásamt grunnsíðum.
 
-Breytur: ... í vinnslu
+### Breytur: 'Front matter' er hægt að kalla í {{ content }}  
+```
+---
+layout: 'page'
+author: 'GJG'
+---
+  <h4>{{page.author}}</h4>
+```
+Sjá nánar á: https://jekyllrb.com/docs/variables/
+
+#### _Includes (mappa í jekyll vef)
+
+_'header', 'footer' og 'nav'_ er hægt setja í sér skrá og kalla inn í grunnsíðu (_layouts/page.html).
+
+```{% include header.html %}``` Sjá nánar í ['minima'](https://github.com/vefhonnun/minima) vefnum
+
+#### lykkjur (_loop_) 
+Eru t.d. nytsamlegar í efnisyfirlit:
+```
+  {% for post in site.posts %}
+    <li><a href="{{ post.title }}"</a></li>
+  {% endfor %}
+
+```
+
+#### Skilyrði (_conditionals)
+
+Ef er gott ...
+```
+  {% if page.title == "Halló heimur" %}
+     Þetta er fyrsti pósturinn minn!
+  {% elsif page.title == "Annar titill"%}
+     Önnur skilaboð hér
+  {% else %}
+      Öll skjöl sem ekki uppfylla skilyrðin hér að ofan, fá þessi skilaboð.
+  {% endif %}
+
+```
+Dæmi: vefsíða sem er virk (_active_)
+```
+  {% for post in site.posts %}
+    <li><a href="{{ post.title } style="if page.url == post.url"}color:red{% endif %}"</a></li>
+  {% endfor %}
+
+```
+#### Gagnaskrár (_data files_)
 
 #### Búa til vef í jekyll geymslu
 ```
@@ -67,13 +112,13 @@ git push --set-upstream origin gh-pages
 ```
  Your site is published at https://vefhonnun.github.io/minima/
 
-Til að samræma gh-pages grein við master - vera á gh grein
+Til að sameina (_merge_) gh-pages grein við master - vera á gh grein
 ``` 
 gjg@DESKTOP-pc MINGW64 ~/Desktop/GIT-vefhonnun/minima (gh-pages)
 $ git merge master
 ```
 ### Bjargir
-* Góðar leiðbeiningar (nema innsetningin) 
+* Góðar leiðbeiningar (nema innsetningin sem miðast við MAC) 
   * http://www.giraffeacademy.com/static-site-generators/jekyll/
 * Jekyll framework
   * https://github.com/jekyll/jekyll
