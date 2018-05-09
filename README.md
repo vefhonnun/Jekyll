@@ -115,8 +115,14 @@ Til að sortera gögn, dæmi:
   {% endfor %}
 ```
 
-#### Vefsíður 
-
+#### Skjöl (Static Files)
+Öll skjöl sem ekki eru með fyrirmæli (_Front matter_) ss myndir, .pdf og JS skriftur. 
+Til að skoða skjöl, dæmi:
+```
+  {% for file in site.static_files %}
+    {{ file.path }}, {{ file.name }}, {{ file.extname }} <br>  
+  {% endfor %}
+```
 #### Setja upp jekyll vef á GitHub.io
 ```
 git checkout -b gh-pages 
