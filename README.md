@@ -81,7 +81,7 @@ Eru t.d. nytsamlegar í efnisyfirlit:
 
 ```
 
-#### Skilyrði (_conditionals)
+#### Skilyrði (_conditionals_)
 
 Ef er gott ...
 ```
@@ -97,7 +97,7 @@ Ef er gott ...
 Dæmi: vefsíða sem er virk (_active_)
 ```
   {% for post in site.posts %}
-    <li><a href="{{ post.title } style="if page.url == post.url"}color:red{% endif %}"</a></li>
+    <li><a href="{{ post.url }} style="{% if page.url == post.url %}color:red{% endif %}"</a>{{ post.title }}</li>
   {% endfor %}
 
 ```
