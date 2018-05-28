@@ -123,7 +123,8 @@ Til að skoða skjöl, dæmi:
 ```
 #### Sérsniðnar stillingar (_Customization_)
 Þegar Jekyll er sett upp er fylgir með **"Minima"** útlitshönnun og stílsíður. Minima er staðsett í grunnuppsetningu **Ruby**, dæmi: ```C:\Ruby24-x64\lib\ruby\gems\2.4.0\gems\minima-2.5.0``` 
-Það er hægt að uppfæra Minima í gegnum _Ruby Gems._ Til að breyta og sérsníða "Minima" þá þarf að afrita möppurnar úr grunninum og setja á vefsvæðið sem unnið er með. Þá er ekki lengur hægt að ná í nýjar uppfærslur af og þú ert eigin útgáfu af uppsetningunni. Sjá nánar á: https://jekyllrb.com/docs/themes/ 
+Það er hægt að uppfæra Minima í gegnum _Ruby Gems._ Til að breyta og sérsníða "Minima" þá þarf að afrita möppurnar úr grunninum og setja á vefsvæðið sem unnið er með. Þá er ekki lengur hægt að ná í nýjar uppfærslur af Minima og þú ert eigin útgáfu af uppsetningunni. Sjá nánar á: https://jekyllrb.com/docs/themes/ 
+Það er hægt að sækja aðrar uppsetningar af vefnum og unnið með sambærilegum hætti. Sjá: http://jekyllthemes.org/
 
 #### Setja upp jekyll vef á GitHub.io
 ```
