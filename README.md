@@ -55,7 +55,7 @@ Jekyll byggir leiðakerfið á dagsetningunni fyrir framan titilinn, það þarf
 * Efni vefsíðunnar fer í: {{ content }} 
 * {{ page.title }}. fer eftir því hvaða fyrirmæli (front matter) er efst í .md skjölunum. 
 * Hægt er að vera með ýmsar CSS viðbætur í _layouts möppunni sem hægt er að setja inn í síður ásamt grunnsíðum.
-
+* Sjá nánar: https://jekyllrb.com/docs/templates/
 
 #### Breytur, 'Front matter' er hægt að kalla í {{ content }}  
 
@@ -106,11 +106,11 @@ Dæmi: vefsíða sem er virk (_active_). Hér notum við lykkju og skilyrði.
 #### Gagnaskrár (_data files_)
 * Gögn geta verið geymd sem .YML, .JSON og .CSV skrár.
 * Gögn eru í möppu sem nefnd er **"_data"**
-* Til að ná í gögn á vefsíðu: ```{{ site.data.gagnaskrá }}```
+* Til að ná í gögn á vefsíðu: ```{{ site.data.csv }}```
 
 Til að sortera gögn, dæmi:
 ```
-  {% for persona in site.data.gagnaskrá %}
+  {% for persona in site.data.csv %}
     {{persona.nafn}}, {{persona.starf}} <br>  
   {% endfor %}
 ```
