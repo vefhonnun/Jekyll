@@ -56,7 +56,9 @@ Jekyll byggir leiðakerfið á dagsetningunni fyrir framan titilinn, það þarf
 * {{ page.title }}. fer eftir því hvaða fyrirmæli (front matter) er efst í .md skjölunum. 
 * Hægt er að vera með ýmsar CSS viðbætur í _layouts möppunni sem hægt er að setja inn í síður ásamt grunnsíðum.
 
-### Breytur: 'Front matter' er hægt að kalla í {{ content }}  
+
+#### Breytur, 'Front matter' er hægt að kalla í {{ content }}  
+
 ```
 ---
 layout: 'page'
