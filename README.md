@@ -67,7 +67,6 @@ author: 'GJG'
 Sjá nánar á: https://jekyllrb.com/docs/variables/
 
 #### _Includes (mappa í jekyll vef)
-
 _'header', 'footer' og 'nav'_ er hægt setja í sér skrá og kalla inn í grunnsíðu (_layouts/page.html).
 
 ```{% include header.html %}``` Sjá nánar í ['minima'](https://github.com/vefhonnun/minima) vefnum
@@ -82,7 +81,6 @@ Eru t.d. nytsamlegar í efnisyfirlit:
 ```
 
 #### Skilyrði (_conditionals_)
-
 Ef er gott ...
 ```
   {% if page.title == "Halló heimur" %}
@@ -115,7 +113,7 @@ Til að sortera gögn, dæmi:
   {% endfor %}
 ```
 
-#### Skjöl (Static Files)
+#### Skjöl (_Static Files_)
 Öll skjöl sem ekki eru með fyrirmæli (_Front matter_) ss myndir, .pdf og JS skriftur. 
 Til að skoða skjöl, dæmi:
 ```
@@ -123,6 +121,10 @@ Til að skoða skjöl, dæmi:
     {{ file.path }}, {{ file.name }}, {{ file.extname }} <br>  
   {% endfor %}
 ```
+#### Sérsniðnar stillingar (_Customization_)
+Þegar Jekyll er sett upp er fylgir með **"Minima"** útlitshönnun og stílsíður. Minima er staðsett í grunnuppsetningu **Ruby**, dæmi: ```C:\Ruby24-x64\lib\ruby\gems\2.4.0\gems\minima-2.5.0``` 
+Það er hægt að uppfæra Minima í gegnum _Ruby Gems._ Til að breyta og sérsníða "Minima" þá þarf að afrita möppurnar úr grunninum og setja á vefsvæðið sem unnið er með. Þá er ekki lengur hægt að ná í nýjar uppfærslur af og þú ert eigin útgáfu af uppsetningunni. Sjá nánar á: https://jekyllrb.com/docs/themes/ 
+
 #### Setja upp jekyll vef á GitHub.io
 ```
 git checkout -b gh-pages 
@@ -138,12 +140,13 @@ gjg@DESKTOP-pc MINGW64 ~/Desktop/GIT-vefhonnun/minima (gh-pages)
 $ git merge master
 ```
 ### Bjargir
-* Góðar leiðbeiningar (nema innsetningin sem miðast við MAC) 
-  * http://www.giraffeacademy.com/static-site-generators/jekyll/
 * Jekyll framework
   * https://github.com/jekyll/jekyll
+  * https://jekyllrb.com
 * CSS Jekyll > **minima** stílsíður 
   * https://github.com/jekyll/minima 
+* Góðar leiðbeiningar (nema innsetningin sem miðast við MAC) 
+  * http://www.giraffeacademy.com/static-site-generators/jekyll/
 
 
 
