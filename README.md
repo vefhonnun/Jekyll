@@ -19,11 +19,10 @@
 
 * að búa til nýjan vef
   * ``` C:\jekyll new testblogg ``` 
-  * ``` C:cd testblogg ``` 
-  * ``` C:\testblogg> jekyll serve ``` 
 
 * vinna í vefnum 
-  * ``` C:\testblogg> jekyll serve ``` 
+  * ``` C:cd testblogg ``` 
+  * ``` C:\testblogg jekyll serve ```  
 
 ### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
@@ -149,8 +148,10 @@ $ git merge master
   * https://jekyllrb.com
 * CSS Jekyll > **minima** stílsíður 
   * https://github.com/jekyll/minima 
-* Góðar leiðbeiningar (nema innsetningin sem miðast við MAC) 
-  * http://www.giraffeacademy.com/static-site-generators/jekyll/
+* Góðar leiðbeiningar  
+  * 
+  * http://www.giraffeacademy.com/static-site-generators/jekyll/<br>
+    Ath! innsetningin miðast við MAC og ekkert farið í útlitshönnun 
 
 
 
