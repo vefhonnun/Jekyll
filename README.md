@@ -149,7 +149,7 @@ $ git merge master
 * CSS Jekyll > **minima** stílsíður 
   * https://github.com/jekyll/minima 
 * Góðar leiðbeiningar  
-  * 
+  * https://www.taniarascia.com/make-a-static-website-with-jekyll/
   * http://www.giraffeacademy.com/static-site-generators/jekyll/<br>
     Ath! innsetningin miðast við MAC og ekkert farið í útlitshönnun 
 
