@@ -148,13 +148,12 @@ $ git merge master
   * https://jekyllrb.com
 * CSS Jekyll > **minima** stílsíður 
   * https://github.com/jekyll/minima 
-* Góðar leiðbeiningar  
+* Góðar leiðbeiningar 
+  * Demo gjg í vinnslu :smile:
   * https://www.taniarascia.com/make-a-static-website-with-jekyll/
-  * http://www.giraffeacademy.com/static-site-generators/jekyll/<br>
-    Ath! innsetningin miðast við MAC og ekkert farið í útlitshönnun 
-
-
-
+  * http://www.giraffeacademy.com/static-site-generators/jekyll/
+  * https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
+  * https://learn.cloudcannon.com/ 
 
     
 
