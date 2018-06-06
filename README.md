@@ -155,11 +155,13 @@ $ git merge master
 * CSS Jekyll > **minima** stílsíður 
   * https://github.com/jekyll/minima 
 * Góðar leiðbeiningar 
-  * Demo gjg í vinnslu :smile:
+  * http://jmcglone.com/guides/github-pages/
   * https://www.taniarascia.com/make-a-static-website-with-jekyll/
   * http://www.giraffeacademy.com/static-site-generators/jekyll/
   * https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
   * https://learn.cloudcannon.com/ 
+* Demo
+  * https://vefhonnun.github.io/drjekyll/
   
 
     
