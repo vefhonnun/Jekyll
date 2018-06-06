@@ -148,7 +148,7 @@ gjg@DESKTOP-pc MINGW64 ~/Desktop/GIT-vefhonnun/minima (gh-pages)
 $ git merge master
 ```
 ### Bjargir
-* [Lesefni](lesefni/)
+* [Lesefni](https://github.com/vefhonnun/Jekyll/tree/master/Lesefni)
 * Jekyll framework
   * https://github.com/jekyll/jekyll
   * https://jekyllrb.com
