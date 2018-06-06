@@ -17,12 +17,17 @@
   * ``` jekyll -v ```  
   	* (jekyll 3.7.3. Dags. 17/4 2018)
 
-* að búa til nýjan vef
-  * ``` C:\jekyll new testblogg ``` 
+* að búa til nýjan vef (_CLI - Git Bash_)
+  * ``` cd desktop ```
+  * ``` mkdir testblogg ```
+  * ``` cd testblogg ``` 
+  * ``` jekyll build ```
+  * ``` jekyll --watch ``` 
+  * ``` CTRL + C ``` stöðva vinnslu
 
-* vinna í vefnum 
-  * ``` C:cd testblogg ``` 
-  * ``` C:\testblogg jekyll serve ```  
+* Til að virkja Jekyll + localhost
+  * ``` jekyll serve ```
+    * Í vafra ``` localhost:4000 ``` 
 
 ### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
@@ -154,6 +159,7 @@ $ git merge master
   * http://www.giraffeacademy.com/static-site-generators/jekyll/
   * https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
   * https://learn.cloudcannon.com/ 
+  
 
     
 
