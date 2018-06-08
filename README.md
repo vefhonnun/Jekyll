@@ -22,7 +22,7 @@
   * ``` mkdir testblogg ```
   * ``` cd testblogg ``` 
   * ``` jekyll build ```
-  * ``` jekyll --watch ``` 
+  * ``` jekyll build --watch ``` 
   * ``` CTRL + C ``` stöðva vinnslu
 
 * Til að virkja Jekyll + localhost
