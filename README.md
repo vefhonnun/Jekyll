@@ -19,16 +19,17 @@
 
 * að búa til nýjan vef (_CLI - Git Bash_)
   * ``` cd desktop ```
-  * ``` mkdir testblogg ```
+  * ``` jekyll new testblogg ```
+* Til að virkja Jekyll + localhost
+  * ``` jekyll serve ```
+  * Í vafra ``` localhost:4000 ``` 
+  * ``` CTRL + C ``` stöðva vinnslu
+  
+Ef ekki er hægt að búa til veframma þá er hægt að vísa Jekyll á möppuna ???
   * ``` cd testblogg ``` 
   * ``` jekyll build ```
   * ``` jekyll build --watch ``` 
-  * ``` CTRL + C ``` stöðva vinnslu
-
-* Til að virkja Jekyll + localhost
-  * ``` jekyll serve ```
-    * Í vafra ``` localhost:4000 ``` 
-
+  
 ### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
 
