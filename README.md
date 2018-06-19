@@ -25,7 +25,7 @@
   * Í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` stöðva vinnslu
   
-Ef ekki er hægt að búa til veframma þá er hægt að vísa Jekyll á möppuna ???
+Ef ekki er hægt að búa til verkramma þá er hægt að vísa Jekyll á möppuna og nota build skipunina
   * ``` cd testblogg ``` 
   * ``` jekyll build ```
   * ``` jekyll build --watch ``` 
