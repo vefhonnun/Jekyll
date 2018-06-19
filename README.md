@@ -1,6 +1,6 @@
-# Jekyll Framework
+# Jekyll glósur
 
-## Glósur
+## Undirbúningur
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
   * Windows: https://rubyinstaller.org/
   * Fylgir með Mac/Linux stýrirkerfum 
@@ -17,6 +17,7 @@
   * ``` jekyll -v ```  
   	* (jekyll 3.7.3. Dags. 17/4 2018)
 
+## Jekyll vinnurammi
 * að búa til nýjan vef (_CLI - Git Bash_)
   * ``` cd desktop ```
   * ``` jekyll new testblogg ```
@@ -25,7 +26,7 @@
   * Í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` stöðva vinnslu
   
-Ef ekki er hægt að búa til verkramma þá er hægt að vísa Jekyll á möppuna og nota build skipunina
+Ef ekki er hægt að búa til vinnuramma þá er hægt að vísa Jekyll á möppuna og nota **build** skipunina
   * ``` cd testblogg ``` 
   * ``` jekyll build ```
   * ``` jekyll build --watch ``` 
