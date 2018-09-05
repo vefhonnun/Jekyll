@@ -22,6 +22,7 @@
   * ``` cd desktop ```
   * ``` jekyll new testblogg ```
 * Til að virkja Jekyll + localhost
+  * ``` cd testblogg ```
   * ``` jekyll serve ```
   * Í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` stöðva vinnslu
