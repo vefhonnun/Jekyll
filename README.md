@@ -1,6 +1,7 @@
-# Jekyll glósur
+# Jekyll vinnurammi 
+## [Jekyll web framework](https://jekyllrb.com/)
 
-## Undirbúningur
+### Undirbúningur
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
   * Windows: https://rubyinstaller.org/
   * Fylgir með Mac/Linux stýrirkerfum 
@@ -17,7 +18,7 @@
   * ``` jekyll -v ```  
   	* (jekyll 3.7.3. Dags. 17/4 2018)
 
-## Jekyll vinnurammi
+### Jekyll vinnurammi
 * að búa til nýjan vef (_CLI - Git Bash_)
   * ``` cd desktop ```
   * ``` jekyll new testblogg ```
@@ -150,20 +151,11 @@ Til að sameina (_merge_) gh-pages grein við master - vera á gh grein
 ``` 
 gjg@DESKTOP-pc MINGW64 ~/Desktop/GIT-vefhonnun/minima (gh-pages)
 $ git merge master
+
 ```
 ### Bjargir
+* [Wiki](https://github.com/vefhonnun/Jekyll/wiki)
 * [Lesefni](https://github.com/vefhonnun/Jekyll/tree/master/Lesefni)
-* Jekyll framework
-  * https://github.com/jekyll/jekyll
-  * https://jekyllrb.com
-* CSS Jekyll > **minima** stílsíður 
-  * https://github.com/jekyll/minima 
-* Góðar leiðbeiningar 
-  * http://jmcglone.com/guides/github-pages/
-  * https://www.taniarascia.com/make-a-static-website-with-jekyll/
-  * http://www.giraffeacademy.com/static-site-generators/jekyll/
-  * https://css-tricks.com/building-a-jekyll-site-part-1-of-3/
-  * https://learn.cloudcannon.com/ 
 * Demo
   * https://vefhonnun.github.io/drjekyll/
   
