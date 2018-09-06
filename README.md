@@ -155,9 +155,8 @@ $ git merge master
 ```
 ### Bjargir
 * [Wiki](https://github.com/vefhonnun/Jekyll/wiki)
-* [Lesefni](https://github.com/vefhonnun/Jekyll/tree/master/Lesefni)
-* Demo
-  * https://vefhonnun.github.io/drjekyll/
+* [Markdown](https://github.com/vefhonnun/Jekyll/tree/master/Lesefni/markdown.md)
+* [Jekyll demo vefsíða](https://vefhonnun.github.io/drjekyll/)
   
 
     
