@@ -18,7 +18,14 @@
   * ``` jekyll -v ```  
   	* (jekyll 3.7.3. Dags. 17/4 2018)
 
-### Jekyll vinnurammi
+### Jekyll steb by step 
+* https://jekyllrb.com/docs/step-by-step/01-setup/
+til að búa til "basic" vinnuramma þá er hægt að vísa Jekyll á möppuna og nota **build** skipunina
+  * ``` cd mappa ``` 
+  * ``` jekyll build ```
+  * ``` jekyll serve ```
+
+### Jekyll vinnurammi með minima layout
 * að búa til nýjan vef (_CLI - Git Bash_)
   * ``` cd desktop ```
   * ``` jekyll new testblogg ```
@@ -28,10 +35,7 @@
   * Í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` stöðva vinnslu
   
-Ef ekki er hægt að búa til vinnuramma þá er hægt að vísa Jekyll á möppuna og nota **build** skipunina
-  * ``` cd testblogg ``` 
-  * ``` jekyll build ```
-  * ``` jekyll build --watch ``` 
+
   
 ### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
