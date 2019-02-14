@@ -17,9 +17,9 @@
   * ``` jekyll -v ```  
   	* (jekyll 3.7.3. Dags. 17/4 2018)
 
-### Jekyll steb by step 
+### Jekyll skref fyrir skref
 * https://jekyllrb.com/docs/step-by-step/01-setup/
-til að búa til "basic" vinnuramma þá er hægt að vísa Jekyll á möppuna og nota **build** skipunina
+til að búa til _"basic"_ vinnuramma
   * ``` cd mappa ``` 
   * ``` jekyll build ```
   * ``` jekyll serve ```
