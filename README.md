@@ -1,5 +1,4 @@
-# Jekyll vinnurammi 
-## [Jekyll web framework](https://jekyllrb.com/)
+# [Jekyll vinnurammi ~ web framework](https://jekyllrb.com/)
 
 ### Undirbúningur
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
