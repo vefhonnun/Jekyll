@@ -3,6 +3,8 @@
 ### Undirbúningur
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
   * Windows: https://rubyinstaller.org/
+    * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
+    * Endurræsið tölvuna eftir innsetningu
   * Fylgir með Mac/Linux stýrirkerfum 
 
 * CMD > start command with Ruby
