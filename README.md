@@ -7,7 +7,7 @@ Jekyll er er forritað í Ruby og við þurfum að hafa það virkt í tölvunni
   * Windows: https://rubyinstaller.org/
     * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
     * Endurræsið tölvuna eftir innsetningu
-  * Fylgir með Mac/Linux stýrirkerfum 
+  * Ruby fylgir með Mac/Linux stýrirkerfum 
 
 * CMD > start command with Ruby
   1. ``` ruby -v ``` 
