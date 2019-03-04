@@ -1,6 +1,8 @@
 # [Jekyll vinnurammi ~ web framework](https://jekyllrb.com/)
 
 ### Undirbúningur
+Jekyll er er forritað í Ruby og við þurfum að hafa það virkt í tölvunni.
+
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
   * Windows: https://rubyinstaller.org/
     * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
