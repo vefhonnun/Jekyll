@@ -13,8 +13,7 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
   * Windows: https://rubyinstaller.org/
     * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
     * Endurræsið tölvuna eftir innsetningu
-  * Ruby fylgir með Mac/Linux stýrirkerfum 
-* **CMD > start command with Ruby**
+* **Command Prompt > start command with Ruby**
   1. ``` ruby -v ``` 
   	* (ruby 2.5.1p57. Dags. 17/4 2018)
   2. ``` gem install rubygems-update ``` 
