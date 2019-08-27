@@ -2,7 +2,7 @@
 
 Jekyll er vefforrit (_web framework_) sem setur saman vefsíður úr aðskildum einingum. Aðferðin er kölluð fljótandi skipulag (_Liquid layout_). Dæmigerð vefsíða er sett saman úr 4. einingum, titill, efnisyfirlit, innihald og undirmál (_header, menu, content & footer_). Vinnuumhverfi Jekyll (_CMS_), er einfalt og skipulag vefsins er í **Liquid** sniðmáti. Vefvinnslan fer fram á vefþróunarsvæði og Jekyll keyrir út vef í sér möppu (_site_) og þar eru tilbúnar (_static_) html vefsíður sem vefþjónn þarf að senda notendum (_clients_). Kosturinn við þessa vinnsluaðferð er að engin hætta er á óæskilegum inngripum (_hack_), hraðari gagnaflutningi og meiri sýnileiki innihaldsins fyrir leitarvélar.  
 
-Undirstaða Jekyll er Ruby forritunarmálið sem hefur verið notað lengi í vefforritun.   Jekyll vinnuumhverfi hentar vel til að búa til persónulega spjallsíðu (_blog_), vef fyrir sérverkefni og lítil fyrirtæki. Jekyll er vélin á bak við GitHub Pages, þú getur notað Jekyll til að hýsa vefsvæði þitt beint úr GitHub geymslu. Þessi vefur er dæmigerður Jekyll vefur. 
+Undirstaða Jekyll er Ruby forritunarmálið sem hefur verið notað lengi í vefforritun.   Jekyll vinnuumhverfi hentar vel til að búa til persónulega spjallsíðu (_blog_), vef fyrir sérverkefni og lítil fyrirtæki. Jekyll er vélin á bak við GitHub Pages, þú getur notað Jekyll til að hýsa vefsvæði þitt beint úr GitHub geymslu. 
 
 ### Undirbúningur
 Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölvunni okkar. Ruby er innsett í Linux og Macintosh stýrikerfunum og hægt að vinna með það í _Terminal_. 
@@ -33,9 +33,9 @@ Til að virkja Jekyll + localhost.
   * ``` cd verkefni ``` 
   * ``` jekyll build ```
   * ``` jekyll serve ```
-  * Eftir fyrstu keyrslu er nóg að skrá `` Jekyll serve `` eða bara `` Jekyll s ``
   * sjá vef í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` til stöðva Jekyll vinnslu
+  * Eftir fyrstu keyrslu er nóg að skrá `` Jekyll serve `` eða bara `` Jekyll s ``
   
 Ef  `` Jekyll serve`` virkar ekki þá er hægt að nota ``build --watch`` skipunina
   * ``` cd verkefni ``` 
