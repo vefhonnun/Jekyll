@@ -30,10 +30,10 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
 ### [Jekyll skref fyrir skref](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
 Til að virkja Jekyll + localhost. 
-
   * ``` cd mappa ``` 
+  * ``` jekyll build ```
   * ``` jekyll serve ```
-  * Í vafra ``` localhost:4000 ``` 
+  * sjá vef í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` til stöðva Jekyll vinnslu
   
 Ef ekki er hægt að búa til vinnuramma þá er hægt að nota **build** skipunina
@@ -157,6 +157,7 @@ Sjá nánar á: https://jekyllrb.com/docs/themes/#overriding-theme-defaults og h
   * ``git push --set-upstream origin gh-pages``
   *  Github býr til nýtt vefsvæði og birtir skilaboðin _Your site is published at https://vefhonnun.github.io/undirvefur/_  í _settings_ > Github Pages
 5. Virkið Jekyll (_framework_)
+  * ``` jekyll build ```
   * ``` jekyll serve ```
 6. Til að tengingar (_links_) virki innan vefsins þá breytið _config.yml_ skrá eftirfarandi:
   * ``` baseurl: "/undirvefur" ```
