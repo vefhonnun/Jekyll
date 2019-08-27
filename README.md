@@ -159,14 +159,14 @@ Sjá nánar á: https://jekyllrb.com/docs/themes/#overriding-theme-defaults og h
 5. Virkið Jekyll (_framework_)
   * ``` jekyll serve ```
 6. Til að tengingar (_links_) virki innan vefsins þá breytið _config.yml_ skrá eftirfarandi:
-  * ``` baseurl: "/lokaverkefni" ```
-  * ``` url: "https://vefhonnun.github.io/lokaverkefni" ```
+  * ``` baseurl: "/undirvefur" ```
+  * ``` url: "https://vefhonnun.github.io/undirvefur" ```
   * munið að endurræsa "Jekyll" eftir breytinguna
-7. Það þarf einnig að bæta "lokaverkefni" í efnisyfirlitið **_data/navigation.yml**
+7. Það þarf einnig að bæta "undirvefur" í efnisyfirlitið **_data/navigation.yml**
   * ``` - name: Forsíða ```
-  * ``` link: https://vefthroun.github.io/lokaverkefni/ ```
-  * ``` - name: aukasíða ```
-  * ``` link: https://vefthroun.github.io/lokaverkefni/page2.html ```
+  * ``` link: https://vefthroun.github.io/undirvefur/ ```
+  * ``` - name: Annað ```
+  * ``` link: https://vefthroun.github.io/undirvefur/page2.html ```
 
 ### Bjargir
 * [Wiki](https://github.com/vefhonnun/Jekyll/wiki)
