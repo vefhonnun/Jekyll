@@ -162,11 +162,11 @@ Sjá nánar á: https://jekyllrb.com/docs/themes/#overriding-theme-defaults og h
   * ``` baseurl: "/undirvefur" ```
   * ``` url: "https://vefhonnun.github.io/undirvefur" ```
   * munið að endurræsa "Jekyll" eftir breytinguna
-7. Það þarf einnig að bæta "undirvefur" í efnisyfirlitið **_data/navigation.yml**
+7. Það þarf einnig að bæta "undirvefur" í efnisyfirlitið **_data/navigation.yml** dæmi:
   * ``` - name: Forsíða ```
   * ``` link: https://vefthroun.github.io/undirvefur/ ```
-  * ``` - name: Annað ```
-  * ``` link: https://vefthroun.github.io/undirvefur/page2.html ```
+  * ``` - name: Upplýsingar ```
+  * ``` link: https://vefthroun.github.io/undirvefur/info.html ```
 
 ### Bjargir
 * [Wiki](https://github.com/vefhonnun/Jekyll/wiki)
