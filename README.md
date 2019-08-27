@@ -30,13 +30,14 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
 ### [Jekyll skref fyrir skref](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
 Til að virkja Jekyll + localhost. 
-  * ``` cd mappa ``` 
+  * ``` cd verkefni ``` 
   * ``` jekyll build ```
   * ``` jekyll serve ```
+  * Eftir fyrstu keyrslu er nóg að skrá `` Jekyll serve `` eða bara `` Jekyll s ``
   * sjá vef í vafra ``` localhost:4000 ``` 
   * ``` CTRL + C ``` til stöðva Jekyll vinnslu
   
-Ef ekki er hægt að búa til vinnuramma þá er hægt að nota **build** skipunina
+Ef  `` Jekyll serve`` virkar ekki þá er hægt að nota ``build --watch`` skipunina
   * ``` cd verkefni ``` 
   * ``` jekyll build ```
   * ``` jekyll build --watch ``` 
