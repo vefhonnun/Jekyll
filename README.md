@@ -146,13 +146,6 @@ Til að skoða skjöl, dæmi:
 Sjá nánar á: https://jekyllrb.com/docs/themes/#overriding-theme-defaults og https://jekyllrb.com/docs/themes/ 
 Það er hægt að sækja aðrar uppsetningar af vefnum og unnið með sambærilegum hætti og Minima. Sjá: http://jekyllthemes.org/
 
-#### Setja upp jekyll vef á GitHub.io
-```
-
-
-```
-
-
 ### Hvernig á að búa til undirvef (_subdomain_)
 
 1. stofna geymslu (_repository_) á github.com
@@ -178,7 +171,6 @@ Sjá nánar á: https://jekyllrb.com/docs/themes/#overriding-theme-defaults og h
 ### Bjargir
 * [Wiki](https://github.com/vefhonnun/Jekyll/wiki)
 * [Markdown](https://github.com/vefhonnun/Jekyll/tree/master/Lesefni/markdown.md)
-
   
 
     
