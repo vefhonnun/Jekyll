@@ -1,44 +1,45 @@
 # [Jekyll vinnurammi ~ web framework](https://jekyllrb.com/)
 
+Jekyll er vefforrit (_web framework_) sem setur saman vefsíður úr aðskildum einingum. Aðferðin er kölluð fljótandi skipulag (_Liquid layout_). Dæmigerð vefsíða er sett saman úr 4. einingum, titill, efnisyfirlit, innihald og undirmál (_header, menu, content & footer_). Vinnuumhverfi Jekyll (_CMS_), er einfalt og skipulag vefsins er í **Liquid** sniðmáti. Vefvinnslan fer fram á vefþróunarsvæði og Jekyll keyrir út vef í sér möppu (_site_) og þar eru tilbúnar (_static_) html vefsíður sem vefþjónn þarf að senda notendum (_clients_). Kosturinn við þessa vinnsluaðferð er að engin hætta er á óæskilegum inngripum (_hack_), hraðari gagnaflutningi og meiri sýnileiki innihaldsins fyrir leitarvélar.  
+
+Undirstaða Jekyll er Ruby forritunarmálið sem hefur verið notað lengi í vefforritun.   Jekyll vinnuumhverfi hentar vel til að búa til persónulega spjallsíðu (_blog_), vef fyrir sérverkefni og lítil fyrirtæki. Jekyll er vélin á bak við GitHub Pages, þú getur notað Jekyll til að hýsa vefsvæði þitt beint úr GitHub geymslu. Þessi vefur er dæmigerður Jekyll vefur. 
+
 ### Undirbúningur
-Jekyll er er forritað í Ruby og við þurfum að hafa það virkt í tölvunni.
+Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölvunni okkar. Ruby er innsett í Linux og Macintosh stýrikerfunum og hægt að vinna með það í _Terminal_. 
+
+### Windows 10
 
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
   * Windows: https://rubyinstaller.org/
     * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
     * Endurræsið tölvuna eftir innsetningu
   * Ruby fylgir með Mac/Linux stýrirkerfum 
-
-* CMD > start command with Ruby
+* **CMD > start command with Ruby**
   1. ``` ruby -v ``` 
   	* (ruby 2.5.1p57. Dags. 17/4 2018)
   2. ``` gem install rubygems-update ``` 
   3. ``` update_rubygems ``` 
   4. ``` gem update --system ``` 
 
-* innsetning jekyll 
+### innsetning jekyll 
+
   * ``` gem install jekyll bundler ```
   * ``` jekyll -v ```  
   	* (jekyll 3.7.3. Dags. 17/4 2018)
 
-### Jekyll skref fyrir skref
-* https://jekyllrb.com/docs/step-by-step/01-setup/
-til að búa til _"basic"_ vinnuramma
-  * ``` cd mappa ``` 
-  * ``` jekyll build ```
-  * ``` jekyll serve ```
+### [Jekyll skref fyrir skref](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
-### Jekyll vinnurammi með minima layout
-* að búa til nýjan vef (_CLI - Git Bash_)
-  * ``` cd desktop ```
-  * ``` jekyll new testblogg ```
-* Til að virkja Jekyll + localhost
-  * ``` cd testblogg ```
+Til að virkja Jekyll + localhost. 
+
+  * ``` cd mappa ``` 
   * ``` jekyll serve ```
   * Í vafra ``` localhost:4000 ``` 
-  * ``` CTRL + C ``` stöðva vinnslu
+  * ``` CTRL + C ``` til stöðva Jekyll vinnslu
   
-
+Ef ekki er hægt að búa til vinnuramma þá er hægt að nota **build** skipunina
+  * ``` cd verkefni ``` 
+  * ``` jekyll build ```
+  * ``` jekyll build --watch ``` 
   
 ### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
@@ -147,23 +148,37 @@ Sjá nánar á: https://jekyllrb.com/docs/themes/#overriding-theme-defaults og h
 
 #### Setja upp jekyll vef á GitHub.io
 ```
-git checkout -b gh-pages 
 
-git push --set-upstream origin gh-pages
 
 ```
- Your site is published at https://vefhonnun.github.io/minima/
 
-Til að sameina (_merge_) gh-pages grein við master - vera á gh grein
-``` 
-gjg@DESKTOP-pc MINGW64 ~/Desktop/GIT-vefhonnun/minima (gh-pages)
-$ git merge master
 
-```
+### Hvernig á að búa til undirvef (_subdomain_)
+
+1. stofna geymslu (_repository_) á github.com
+  * dæmi: undirvefur
+2. afrita (_clone_) geymsluna á eigin tölvu
+3. vísið Git Bash (_cd_) í geymsluna
+4. búið til nýja grein (_branch_) sem á að nefna **gh-pages** 
+  * ``git checkout -b gh-pages`` 
+  * ``git push --set-upstream origin gh-pages``
+  *  Github býr til nýtt vefsvæði og birtir skilaboðin _Your site is published at https://vefhonnun.github.io/undirvefur/_  í _settings_ > Github Pages
+5. Virkið Jekyll (_framework_)
+  * ``` jekyll serve ```
+6. Til að tengingar (_links_) virki innan vefsins þá breytið _config.yml_ skrá eftirfarandi:
+  * ``` baseurl: "/lokaverkefni" ```
+  * ``` url: "https://vefhonnun.github.io/lokaverkefni" ```
+  * munið að endurræsa "Jekyll" eftir breytinguna
+7. Það þarf einnig að bæta "lokaverkefni" í efnisyfirlitið **_data/navigation.yml**
+  * ``` - name: Forsíða ```
+  * ``` link: https://vefthroun.github.io/lokaverkefni/ ```
+  * ``` - name: aukasíða ```
+  * ``` link: https://vefthroun.github.io/lokaverkefni/page2.html ```
+
 ### Bjargir
 * [Wiki](https://github.com/vefhonnun/Jekyll/wiki)
 * [Markdown](https://github.com/vefhonnun/Jekyll/tree/master/Lesefni/markdown.md)
-* [Jekyll demo vefsíða](https://vefhonnun.github.io/drjekyll/)
+
   
 
     
