@@ -15,7 +15,7 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
     * Endurræsið tölvuna eftir innsetningu
 * **Command Prompt > start command with Ruby**
   1. ``` ruby -v ``` 
-  	* (ruby 2.5.1p57. Dags. 17/4 2018)
+  	* (ruby 2.5.5p157. Dags. 29/08 2019)
   2. ``` gem install rubygems-update ``` 
   3. ``` update_rubygems ``` 
   4. ``` gem update --system ``` 
@@ -24,7 +24,7 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
 
   * ``` gem install jekyll bundler ```
   * ``` jekyll -v ```  
-  	* (jekyll 3.7.3. Dags. 17/4 2018)
+  	* (jekyll 4.0.0. Dags. 29/08 2019)
 
 ### [Jekyll skref fyrir skref](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
