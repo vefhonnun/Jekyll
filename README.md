@@ -41,6 +41,12 @@ Ef  `` Jekyll serve`` virkar ekki þá er hægt að nota ``build --watch`` skipu
   * ``` jekyll build ```
   * ``` jekyll build --watch ``` 
   
+
+#### Skipulag
+* möppur sem eru í *_post* eru notaðar sem flokkar _"categories"_ í leiðakerfinu
+* Efni sem fer á Vefsíður eru skrifaðar í Markdown .md (má einnig vera .html)
+* Allar síður þurfa að hafa fyrirmæli (_front matter_) efst á síðu með ```layout:page``` osfr.
+
 ### front matter = fyrirmæli. 
 YAML eða JSON = skipun : gildi
 
@@ -54,9 +60,6 @@ date: 2018-05-07 14:00:10 +0000
 Jekyll byggir leiðakerfið á dagsetningunni fyrir framan titilinn, það þarf að vista pistla með dagsetningu
 * Dæmi: ```2018-12-31-titill.md``` (eða .html)
 
-#### Skipulag
-* möppur sem eru í *_post* eru notaðar sem flokkar _"categories"_ í leiðakerfinu
-* Vefsíður, .md eða .html síður, þurfa að hafa fyrirmæli (front matter) efst á síðu með ```layout:page``` osfr.
 
 #### permalink - permanent url  í stað dagsetningar í pistlum
 * Dæmi: ```permalink:/info/``` eða ```permalink: /:categories```
