@@ -42,7 +42,7 @@ Ef  `` Jekyll serve`` virkar ekki þá er hægt að nota ``build --watch`` skipu
   * ``` jekyll build --watch ``` 
   
 
-#### Skipulag
+### Skipulag
 
 * Allt efni (_content_) sem fer á vefsíður eru skráð í Markdown .md (má einnig vera .html)
 * Allar síður þurfa að hafa fyrirmæli (_front matter_) efst á síðu sjá dæmi:
