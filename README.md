@@ -11,8 +11,8 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
 
 * Innsetning: **notið nýjustu útgáfu _Ruby+Devkit_**
   * Windows: https://rubyinstaller.org/
-    * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
-    * Endurræsið tölvuna eftir innsetningu
+   * Látið tövuna velja innsetningu, ýtið bara á "Enter" þegar þarf að velja eitthvað.
+   * Endurræsið tölvuna eftir innsetningu
 * **Command Prompt > start command with Ruby**
   1. ``` ruby -v ``` 
   	* (ruby 2.5.5p157. Dags. 29/08 2019)
@@ -43,23 +43,21 @@ Ef  `` Jekyll serve`` virkar ekki þá er hægt að nota ``build --watch`` skipu
   
 
 #### Skipulag
-* möppur sem eru í *_post* eru notaðar sem flokkar _"categories"_ í leiðakerfinu
-* Efni sem fer á Vefsíður eru skrifaðar í Markdown .md (má einnig vera .html)
-* Allar síður þurfa að hafa fyrirmæli (_front matter_) efst á síðu með ```layout:page``` osfr.
 
-### front matter = fyrirmæli. 
-YAML eða JSON = skipun : gildi
+* Allt efni (_content_) sem fer á vefsíður eru skráð í Markdown .md (má einnig vera .html)
+* Allar síður þurfa að hafa fyrirmæli (_front matter_) efst á síðu sjá dæmi:
 
 ```
 layout: post
 title: titill síðunnar
 date: 2018-05-07 14:00:10 +0000
 ```
+### front matter = fyrirmæli. 
+YAML eða JSON = skipun : gildi
 
 #### Leiðakerfi pistla (posts)
 Jekyll byggir leiðakerfið á dagsetningunni fyrir framan titilinn, það þarf að vista pistla með dagsetningu
 * Dæmi: ```2018-12-31-titill.md``` (eða .html)
-
 
 #### permalink - permanent url  í stað dagsetningar í pistlum
 * Dæmi: ```permalink:/info/``` eða ```permalink: /:categories```
