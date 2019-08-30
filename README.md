@@ -22,8 +22,8 @@ Jekyll er er forritað í **Ruby** og við þurfum að hafa það virkt í tölv
 
 ### innsetning jekyll 
 
-  * ``` gem install jekyll bundler ```
-  * ``` jekyll -v ```  
+  * C:\Ruby25-x64\bin> ``` gem install jekyll bundler ```
+  * C:\Ruby25-x64\bin> ``` jekyll -v ```  
   	* (jekyll 4.0.0. Dags. 29/08 2019)
 
 ### [Jekyll skref fyrir skref](https://jekyllrb.com/docs/step-by-step/01-setup/)
